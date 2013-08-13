@@ -4,7 +4,7 @@ Ever wondering how to render multiple scenes into multiple canvases? Efficiently
 
 ## How it works
 
-Actually you don't need any canvases at all. You just pick some divs, let's say _#scene1_, _#scene2_ and a rendering function _renderFunction_ that draws triangle for example. GLOVERLAY automatically cretas fullscreen transparent canvas that draws the scene with _renderFunction_ into areas accomodated by the divs _#scene1_, _#scene2_.
+Actually you need only one canvas! You just pick some divs, let's say _#scene1_, _#scene2_ and a rendering function _renderFunction_ that draws triangle for example. GLOVERLAY automatically creates fullscreen transparent canvas that draws the scene with _renderFunction_ into areas accomodated by the divs _#scene1_, _#scene2_.
 
 You can have multiple _renderFunction_ functions which means for example one scene is rendered in the first div and the other one is rendered into another div. Cool huh?
 
